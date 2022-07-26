@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: url("C:/Users/OmkarNagare/Desktop/HTML/HTML AND CSS/bg1.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.mainheader{
+
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.mainheader .logo img{
+
+	width: 200px;
+	height: 150px;
+	padding-top: 15px;
+	padding-left: 0px;
+}
+.mainheader nav{
+	width: 450px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mainheader nav a{
+
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+
+}
+.mainheader button{
+	padding: 5px 26px;
+	text-align: center;
+	font-size: 13px;
+
+	color: black;
+	border: none;
+	background-color:lightyellow;
+	border: 2px solid darkcyan;
+	border-radius: 50px;
+	margin-right: 50px;
+}
+
+main{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 50px;
+}
+
+
+
+.left-sec button{
+	padding: 10px 30px;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	border: none;
+	background-color:black;
+	border-radius: 50px;
+}
+.left-sec{
+	margin-top: 100px;
+
+}
+.left-sec h1{
+	margin-right: 150px;
+}
